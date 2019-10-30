@@ -5,6 +5,7 @@ Vue.use(Router)
 
 /* Layout */
 import Layout from '@/layout'
+import Layout2 from '@/layout2'
 
 /**
  * Note: sub-menu only appear when route children.length >= 1
@@ -79,7 +80,7 @@ export const constantRoutes = [
 
   {
     path: '/form',
-    component: Layout,
+    component: Layout2,
     children: [
       {
         path: 'index',
